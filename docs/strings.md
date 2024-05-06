@@ -176,7 +176,7 @@ def my_function():
     pass
 ```
 
-## String Functions in Python
+## String Functions
 
 Python provides a rich set of built-in functions for working with strings efficiently. Here are some of the most commonly used string functions:
 
