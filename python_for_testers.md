@@ -5,3 +5,4 @@
 - ## [Booleans](docs/booleans.md)
 - ## [Strings](docs/strings.md)
 - ## [Lists](docs/lists.md)
+- ## [Sets](docs/sets.md)

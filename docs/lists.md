@@ -1,6 +1,6 @@
 #### [Return Back](../python_for_testers.md)
 
-# Lists in Python
+# Lists
 
 Lists are ordered collections of items, which can be of any type, and are mutable, meaning their elements can be changed after creation. Lists are one of the most versatile data structures in Python and are extensively used in programming.
 
