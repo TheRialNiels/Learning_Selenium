@@ -6,3 +6,4 @@
 - ## [Strings](docs/strings.md)
 - ## [Lists](docs/lists.md)
 - ## [Sets](docs/sets.md)
+- ## [Tuples](docs/tuples.md)
