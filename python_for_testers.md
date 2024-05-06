@@ -9,3 +9,4 @@
 - ## [Tuples](docs/tuples.md)
 - ## [Dictionaries](docs/dictionaries.md)
 - ## [If Conditional](docs/if_conditional.md)
+- ## [While Loop](docs/while_loop.md)
