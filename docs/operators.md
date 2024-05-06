@@ -118,4 +118,42 @@ print(1 in my_list)   # Output: True
 print(5 not in my_list)  # Output: True
 ```
 
-Understanding and mastering these operators are essential for writing efficient and concise Python code. They enable you to perform a wide range of operations, from simple arithmetic to complex logical manipulations and bitwise operations.
+## Operators Precedence
+
+Operator precedence determines the order in which operations are performed in an expression. In Python, as in many programming languages, certain operators have higher precedence than others, meaning they are evaluated first. Here's a summary of the operator precedence in Python, from highest to lowest:
+
+- **Parentheses:** Expressions within parentheses are evaluated first.
+- **Exponentiation (**):** Exponentiation is performed next.
+- **Unary Arithmetic Operations:** Unary positive (+) and unary negation (-) are applied to operands.
+- **Multiplication, Division, and Modulus (*, /, %):** Multiplication, division, and modulus operations are performed next, from left to right.
+- **Addition and Subtraction (+, -):** Addition and subtraction operations are performed next, from left to right.
+- **Logical NOT (not):** Logical NOT operation is performed next.
+- **Logical AND (and):** Logical AND operation is performed next.
+- **Logical OR (or):** Logical OR operation is performed next.
+- **Assignment Operators (=, +=, -= etc.):** Assignment operations are performed last.
+
+Here's an example demonstrating operator precedence:
+
+```python
+result = 5 + 2 * 3 ** 2 - 1
+# First, 3 ** 2 is evaluated: 9
+# Then, 2 * 9 is evaluated: 18
+# Next, 5 + 18 is evaluated: 23
+# Finally, 23 - 1 is evaluated: 22
+
+print(result)  # Output: 22
+```
+
+To override the precedence and force a particular order of evaluation, you can use parentheses. Expressions within parentheses are always evaluated first. For example:
+
+```python
+result = (5 + 2) * (3 ** 2 - 1)
+# First, 3 ** 2 is evaluated: 9
+# Then, 9 - 1 is evaluated: 8
+# Next, 5 + 2 is evaluated: 7
+# Finally, 7 * 8 is evaluated: 56
+
+print(result)  # Output: 56
+```
+
+Understanding operator precedence is crucial for writing expressions that behave as intended and avoiding errors caused by unexpected evaluation order.
