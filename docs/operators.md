@@ -1,6 +1,6 @@
 #### [Return Back](../python_for_testers.md)
 
-# Operators in Python
+# Operators
 
 Operators in Python are special symbols or keywords that perform operations on operands (variables or values). Python supports various types of operators, including:
 
@@ -8,13 +8,13 @@ Operators in Python are special symbols or keywords that perform operations on o
 
 Arithmetic operators perform mathematical operations on numeric operands.
 
-- **Addition (+):** Adds two operands.
-- **Subtraction (-):** Subtracts the second operand from the first.
-- **Multiplication (*):** Multiplies two operands.
-- **Division (/):** Divides the first operand by the second.
-- **Modulus (%):** Returns the remainder of the division.
-- **Exponentiation ()\**:** Raises the first operand to the power of the second.
-- **Floor Division (//):** Returns the quotient of the division, discarding any fractional part.
+- **Addition (`+`)**: Adds two operands.
+- **Subtraction (`-`)**: Subtracts the second operand from the first.
+- **Multiplication (`*`)**: Multiplies two operands.
+- **Division (`/`)**: Divides the first operand by the second.
+- **Modulus (`%`)**: Returns the remainder of the division.
+- **Exponentiation (`**`)**: Raises the first operand to the power of the second.
+- **Floor Division (`//`)**: Returns the quotient of the division, discarding any fractional part.
 
 ```python
 a = 10
@@ -33,8 +33,8 @@ print(a // b) # Output: 3
 
 Assignment operators are used to assign values to variables.
 
-- **Assignment (=):** Assigns the value on the right to the variable on the left.
-- **Compound Assignment (+=, -=, \*=, /=, %=, //=, =):** Performs the operation and assigns the result to the variable.
+- **Assignment (`=`)**: Assigns the value on the right to the variable on the left.
+- **Compound Assignment (`+=`, `-=`, `*=`, `/=`, `%=`, `//=`, `**=`)**: Performs the operation and assigns the result to the variable.
 
 ```python
 x = 10
@@ -51,12 +51,12 @@ print(y)  # Output: 25
 
 Comparison operators compare the values of two operands and return a Boolean value (True or False).
 
-- **Equal to (==)**
-- **Not equal to (!=)**
-- **Greater than (>)**
-- **Less than (<)**
-- **Greater than or equal to (>=)**
-- **Less than or equal to (<=)**
+- **Equal to (`==`)**
+- **Not equal to (`!=`)**
+- **Greater than (`>`)**
+- **Less than (`<`)**
+- **Greater than or equal to (`>=`)**
+- **Less than or equal to (`<=`)**
 
 ```python
 a = 10
@@ -74,9 +74,9 @@ print(a <= b)  # Output: True
 
 Logical operators perform logical operations on Boolean values.
 
-- **Logical AND (and):** Returns True if both operands are True.
-- **Logical OR (or):** Returns True if at least one operand is True.
-- **Logical NOT (not):** Returns the opposite of the operand's Boolean value.
+- **Logical AND (`and`)**: Returns True if both operands are True.
+- **Logical OR (`or`)**: Returns True if at least one operand is True.
+- **Logical NOT (`not`)**: Returns the opposite of the operand's Boolean value.
 
 ```python
 x = True
@@ -91,8 +91,8 @@ print(not x)    # Output: False
 
 Identity operators compare the memory locations of two objects.
 
-- **Identity (is):** Returns True if both operands refer to the same object.
-- **Non-identity (is not):** Returns True if both operands refer to different objects.
+- **Identity (`is`)**: Returns True if both operands refer to the same object.
+- **Non-identity (`is not`)**: Returns True if both operands refer to different objects.
 
 ```python
 a = [1, 2, 3]
@@ -108,8 +108,8 @@ print(a is not b)  # Output: True
 
 Membership operators test for membership in a sequence (e.g., lists, tuples, strings).
 
-- **Membership (in):** Returns True if a value exists in the sequence.
-- **Not Membership (not in):** Returns True if a value does not exist in the sequence.
+- **Membership (`in`)**: Returns True if a value exists in the sequence.
+- **Not Membership (`not in`)**: Returns True if a value does not exist in the sequence.
 
 ```python
 my_list = [1, 2, 3, 4]
@@ -122,17 +122,16 @@ print(5 not in my_list)  # Output: True
 
 Operator precedence determines the order in which operations are performed in an expression. In Python, as in many programming languages, certain operators have higher precedence than others, meaning they are evaluated first. Here's a summary of the operator precedence in Python, from highest to lowest:
 
-- **Parentheses:** Expressions within parentheses are evaluated first.
-- **Exponentiation (**):** Exponentiation is performed next.
-- **Unary Arithmetic Operations:** Unary positive (+) and unary negation (-) are applied to operands.
-- **Multiplication, Division, and Modulus (*, /, %):** Multiplication, division, and modulus operations are performed next, from left to right.
-- **Addition and Subtraction (+, -):** Addition and subtraction operations are performed next, from left to right.
-- **Logical NOT (not):** Logical NOT operation is performed next.
-- **Logical AND (and):** Logical AND operation is performed next.
-- **Logical OR (or):** Logical OR operation is performed next.
-- **Assignment Operators (=, +=, -= etc.):** Assignment operations are performed last.
-
-Here's an example demonstrating operator precedence:
+1. **Parentheses**: Expressions within parentheses are evaluated first.
+2. **Exponentiation (`**`)**: Exponentiation is performed next.
+3. **Unary Arithmetic Operations**: Unary positive (`+`) and unary negation (`-`) are applied to operands.
+4. **Multiplication, Division, and Modulus (`*`, `/`, `%`)**: Multiplication, division, and modulus operations are performed next, from left to right.
+5. **Addition and Subtraction (`+`, `-`)**: Addition and subtraction operations are performed next, from left to right.
+6. **Comparison Operators (`<`, `<=`, `>`, `>=`, `==`, `!=`)**: Comparison operations are performed next.
+7. **Logical NOT (`not`)**: Logical NOT operation is performed next.
+8. **Logical AND (`and`)**: Logical AND operation is performed next.
+9. **Logical OR (`or`)**: Logical OR operation is performed next.
+10. **Assignment Operators (`=`, `+=`, `-=` etc.)**: Assignment operations are performed last.
 
 ```python
 result = 5 + 2 * 3 ** 2 - 1
@@ -155,5 +154,3 @@ result = (5 + 2) * (3 ** 2 - 1)
 
 print(result)  # Output: 56
 ```
-
-Understanding operator precedence is crucial for writing expressions that behave as intended and avoiding errors caused by unexpected evaluation order.
