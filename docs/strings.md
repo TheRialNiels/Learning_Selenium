@@ -280,3 +280,70 @@ Python provides a rich set of built-in functions for working with strings effici
   ```
 
 These functions provide powerful tools for manipulating and analyzing strings in Python, enabling you to perform a wide range of tasks efficiently.
+
+## Formatting Strings
+
+### Using the `%` Operator
+
+The `%` operator allows you to format strings using placeholders. The `%` operator is followed by a format specifier, such as `%s` for strings, `%d` for integers, `%f` for floating-point numbers, etc.
+
+```python
+name = "Alice"
+age = 30
+
+# Using % operator
+formatted_string = "Name: %s, Age: %d" % (name, age)
+print(formatted_string)  # Output: Name: Alice, Age: 30
+```
+
+### Using the `format()` Method
+
+The `format()` method allows you to format strings using placeholders within curly braces `{}`. You can specify the order of variables using positional arguments or use keyword arguments for more clarity.
+
+```python
+name = "Alice"
+age = 30
+
+# Using format() method with positional arguments
+formatted_string = "Name: {}, Age: {}".format(name, age)
+print(formatted_string)  # Output: Name: Alice, Age: 30
+
+# Using format() method with keyword arguments
+formatted_string = "Name: {n}, Age: {a}".format(n=name, a=age)
+print(formatted_string)  # Output: Name: Alice, Age: 30
+```
+
+### Using f-strings (Formatted String Literals)
+
+f-strings provide a more concise and readable way to format strings since they allow you to embed expressions directly within strings. Simply prefix the string with `f` or `F` and embed variables or expressions within curly braces `{}`.
+
+```python
+name = "Alice"
+age = 30
+
+# Using f-strings
+formatted_string = f"Name: {name}, Age: {age}"
+print(formatted_string)  # Output: Name: Alice, Age: 30
+```
+
+### Formatting Numeric Values
+
+You can specify formatting options for numeric values, such as precision for floating-point numbers, padding, and alignment.
+
+```python
+pi = 3.141592653589793
+
+# Formatting floating-point numbers with specific precision
+formatted_pi = "Value of pi: {:.2f}".format(pi)
+print(formatted_pi)  # Output: Value of pi: 3.14
+
+# Padding and alignment
+formatted_number = "{:<10}".format(123)  # Left-aligned with width 10
+print(formatted_number)  # Output: 123
+
+formatted_number = "{:>10}".format(123)  # Right-aligned with width 10
+print(formatted_number)  # Output:        123
+
+formatted_number = "{:^10}".format(123)  # Center-aligned with width 10
+print(formatted_number)  # Output:   123
+```
