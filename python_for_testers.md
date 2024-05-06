@@ -7,3 +7,4 @@
 - ## [Lists](docs/lists.md)
 - ## [Sets](docs/sets.md)
 - ## [Tuples](docs/tuples.md)
+- ## [Dictionaries](docs/dictionaries.md)
