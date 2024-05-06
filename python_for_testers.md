@@ -14,3 +14,4 @@
 - ## [Zip Function](docs/zip_function.md)
 - ## [For Loop](docs/for_loop.md)
 - ## [Range Function](docs/range_function.md)
+- ## [Functions](docs/functions.md)
