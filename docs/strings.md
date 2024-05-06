@@ -175,3 +175,130 @@ def my_function():
     """
     pass
 ```
+
+## String Functions in Python
+
+Python provides a rich set of built-in functions for working with strings efficiently. Here are some of the most commonly used string functions:
+
+### 1. `len()`
+
+Returns the length of the string.
+
+```python
+s = "Hello, World!"
+print(len(s))  # Output: 13
+```
+
+### 2. `str()`
+
+Converts the specified value into a string.
+
+```python
+x = 10
+print(str(x))  # Output: '10'
+```
+
+### 3. `upper()`
+
+Converts all characters in the string to uppercase.
+
+```python
+s = "Hello, World!"
+print(s.upper())  # Output: HELLO, WORLD!
+```
+
+### 4. `lower()`
+
+Converts all characters in the string to lowercase.
+
+```python
+s = "Hello, World!"
+print(s.lower())  # Output: hello, world!
+```
+
+### 5. `count()`
+
+Returns the number of occurrences of a substring in the string.
+
+```python
+s = "Hello, World!"
+print(s.count('l'))  # Output: 3
+```
+
+### 6. `isupper()`
+
+Returns `True` if all characters in the string are uppercase, otherwise `False`.
+
+```python
+s = "HELLO"
+print(s.isupper())  # Output: True
+```
+
+### 7. `islower()`
+
+Returns `True` if all characters in the string are lowercase, otherwise `False`.
+
+```python
+s = "hello"
+print(s.islower())  # Output: True
+```
+
+### 8. `split()`
+
+Splits the string into a list of substrings based on the specified delimiter.
+
+```python
+s = "Hello, World!"
+print(s.split(','))  # Output: ['Hello', ' World!']
+```
+
+### 9. `rsplit()`
+
+Splits the string into a list of substrings, starting from the right.
+
+```python
+s = "Hello, World!"
+print(s.rsplit(',', 1))  # Output: ['Hello', ' World!']
+```
+
+### 10. `strip()`, `lstrip()`, `rstrip()`
+
+Removes leading and trailing whitespace from the string.
+
+```python
+s = "   Hello, World!   "
+print(s.strip())   # Output: "Hello, World!"
+print(s.lstrip())  # Output: "Hello, World!   "
+print(s.rstrip())  # Output: "   Hello, World!"
+```
+
+### 11. `replace()`
+
+Replaces occurrences of a substring with another substring.
+
+```python
+s = "Hello, World!"
+print(s.replace("World", "Python"))  # Output: Hello, Python!
+```
+
+### 12. `find()`
+
+Returns the lowest index of the substring if found in the string, otherwise returns -1.
+
+```python
+s = "Hello, World!"
+print(s.find("World"))  # Output: 7
+print(s.find("Python"))  # Output: -1
+```
+
+### 13. `index()`
+
+Similar to `find()`, but raises a ValueError if the substring is not found.
+
+```python
+s = "Hello, World!"
+print(s.index("World"))  # Output: 7
+# print(s.index("Python"))  # Raises ValueError
+```
+
+These functions provide powerful tools for manipulating and analyzing strings in Python, enabling you to perform a wide range of tasks efficiently.
