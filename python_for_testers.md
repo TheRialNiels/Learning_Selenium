@@ -11,4 +11,5 @@
 - ## [If Conditional](docs/if_conditional.md)
 - ## [While Loop](docs/while_loop.md)
 - ## [Break and Continue in a Loop](docs/break_and_continue.md)
+- ## [Zip Function](docs/zip_function.md)
 - ## [For Loop](docs/for_loop.md)
