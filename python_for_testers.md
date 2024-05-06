@@ -16,3 +16,4 @@
 - ## [Range Function](docs/range_function.md)
 - ## [Functions](docs/functions.md)
 - ## [Variable Scope](docs/variable_scope.md)
+- ## [Built-in Functions](docs/built_in_functions.md)
