@@ -122,4 +122,56 @@ print(s + " Python")   # Output: Hello, World! Python
 print(s * 3)           # Output: Hello, World!Hello, World!Hello, World!
 ```
 
-Understanding strings and their manipulation techniques is essential for working with textual data and building robust applications in Python.
+Sure! Here's an addition to the guide covering multiline strings:
+
+## Multiline Strings
+
+Multiline strings in Python allow you to define strings that span multiple lines. They are often used for docstrings, writing SQL queries, or defining large blocks of text.
+
+### Creating Multiline Strings
+
+You can create multiline strings using triple quotes (`'''` or `"""`).
+
+```python
+# Using triple quotes
+multi_line = '''This is a
+multi-line string.'''
+
+# Using triple quotes with double quotes inside
+multi_line_with_quotes = """This is a
+multi-line string with "quotes" inside."""
+
+# Using parentheses for multiline strings
+multi_line_parentheses = (
+    "This is a\n"
+    "multi-line string using parentheses.\n"
+    "It's useful for long strings."
+)
+```
+
+### Accessing Multiline Strings
+
+Multiline strings behave like regular strings and support all string operations, including indexing, slicing, concatenation, and string methods.
+
+```python
+print(multi_line[0])    # Output: T
+print(multi_line[:4])   # Output: This
+```
+
+### Multiline Strings in Functions and Docstrings
+
+Multiline strings are commonly used for writing docstrings for functions and classes.
+
+```python
+def my_function():
+    """
+    This function does something.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+    """
+    pass
+```
