@@ -15,3 +15,4 @@
 - ## [For Loop](docs/for_loop.md)
 - ## [Range Function](docs/range_function.md)
 - ## [Functions](docs/functions.md)
+- ## [Variable Scope](docs/variable_scope.md)
