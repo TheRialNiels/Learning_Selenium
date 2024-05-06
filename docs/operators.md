@@ -118,27 +118,4 @@ print(1 in my_list)   # Output: True
 print(5 not in my_list)  # Output: True
 ```
 
-## Bitwise Operators
-
-Bitwise operators perform operations on binary representations of integers.
-
-- **Bitwise AND (&)**
-- **Bitwise OR (|)**
-- **Bitwise XOR (^)**
-- **Bitwise NOT (~)**
-- **Left Shift (<<)**
-- **Right Shift (>>)**
-
-```python
-a = 10  # 1010 in binary
-b = 5   # 0101 in binary
-
-print(a & b)  # Output: 0
-print(a | b)  # Output: 15
-print(a ^ b)  # Output: 15
-print(~a)     # Output: -11
-print(a << 1) # Output: 20
-print(a >> 1) # Output: 5
-```
-
 Understanding and mastering these operators are essential for writing efficient and concise Python code. They enable you to perform a wide range of operations, from simple arithmetic to complex logical manipulations and bitwise operations.
