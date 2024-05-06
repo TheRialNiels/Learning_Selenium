@@ -60,28 +60,6 @@ s1 += s2
 print(s1)            # Output: Hello World!
 ```
 
-## String Methods
-
-Python provides a wide range of methods for working with strings, including:
-
-- **`len()`:** Returns the length of the string.
-- **`lower()`, `upper()`:** Converts the string to lowercase or uppercase.
-- **`strip()`, `lstrip()`, `rstrip()`:** Removes leading and trailing whitespace.
-- **`replace(old, new)`:** Replaces occurrences of a substring with another substring.
-- **`split(sep)`:** Splits the string into a list of substrings using the specified separator.
-- **`join(iterable)`:** Concatenates strings from an iterable with the string as a separator.
-
-```python
-s = " Hello, World! "
-
-print(len(s))          # Output: 15
-print(s.lower())       # Output:  hello, world!
-print(s.strip())       # Output: Hello, World!
-print(s.replace("o", "X"))  # Output: HellX, WXrld!
-print(s.split(","))    # Output: [' Hello', ' World! ']
-print("-".join(["Hello", "World"]))  # Output: Hello-World
-```
-
 ## String Formatting
 
 Python provides several methods for string formatting:
@@ -180,125 +158,125 @@ def my_function():
 
 Python provides a rich set of built-in functions for working with strings efficiently. Here are some of the most commonly used string functions:
 
-### 1. `len()`
+- `len()`
 
-Returns the length of the string.
+  Returns the length of the string.
 
-```python
-s = "Hello, World!"
-print(len(s))  # Output: 13
-```
+  ```python
+  s = "Hello, World!"
+  print(len(s))  # Output: 13
+  ```
 
-### 2. `str()`
+- `str()`
 
-Converts the specified value into a string.
+  Converts the specified value into a string.
 
-```python
-x = 10
-print(str(x))  # Output: '10'
-```
+  ```python
+  x = 10
+  print(str(x))  # Output: '10'
+  ```
 
-### 3. `upper()`
+- `upper()`
 
-Converts all characters in the string to uppercase.
+  Converts all characters in the string to uppercase.
 
-```python
-s = "Hello, World!"
-print(s.upper())  # Output: HELLO, WORLD!
-```
+  ```python
+  s = "Hello, World!"
+  print(s.upper())  # Output: HELLO, WORLD!
+  ```
 
-### 4. `lower()`
+- `lower()`
 
-Converts all characters in the string to lowercase.
+  Converts all characters in the string to lowercase.
 
-```python
-s = "Hello, World!"
-print(s.lower())  # Output: hello, world!
-```
+  ```python
+  s = "Hello, World!"
+  print(s.lower())  # Output: hello, world!
+  ```
 
-### 5. `count()`
+- `count()`
 
-Returns the number of occurrences of a substring in the string.
+  Returns the number of occurrences of a substring in the string.
 
-```python
-s = "Hello, World!"
-print(s.count('l'))  # Output: 3
-```
+  ```python
+  s = "Hello, World!"
+  print(s.count('l'))  # Output: 3
+  ```
 
-### 6. `isupper()`
+- `isupper()`
 
-Returns `True` if all characters in the string are uppercase, otherwise `False`.
+  Returns `True` if all characters in the string are uppercase, otherwise `False`.
 
-```python
-s = "HELLO"
-print(s.isupper())  # Output: True
-```
+  ```python
+  s = "HELLO"
+  print(s.isupper())  # Output: True
+  ```
 
-### 7. `islower()`
+- `islower()`
 
-Returns `True` if all characters in the string are lowercase, otherwise `False`.
+  Returns `True` if all characters in the string are lowercase, otherwise `False`.
 
-```python
-s = "hello"
-print(s.islower())  # Output: True
-```
+  ```python
+  s = "hello"
+  print(s.islower())  # Output: True
+  ```
 
-### 8. `split()`
+- `split()`
 
-Splits the string into a list of substrings based on the specified delimiter.
+  Splits the string into a list of substrings based on the specified delimiter.
 
-```python
-s = "Hello, World!"
-print(s.split(','))  # Output: ['Hello', ' World!']
-```
+  ```python
+  s = "Hello, World!"
+  print(s.split(','))  # Output: ['Hello', ' World!']
+  ```
 
-### 9. `rsplit()`
+- `rsplit()`
 
-Splits the string into a list of substrings, starting from the right.
+  Splits the string into a list of substrings, starting from the right.
 
-```python
-s = "Hello, World!"
-print(s.rsplit(',', 1))  # Output: ['Hello', ' World!']
-```
+  ```python
+  s = "Hello, World!"
+  print(s.rsplit(',', 1))  # Output: ['Hello', ' World!']
+  ```
 
-### 10. `strip()`, `lstrip()`, `rstrip()`
+- `strip()`, `lstrip()`, `rstrip()`
 
-Removes leading and trailing whitespace from the string.
+  Removes leading and trailing whitespace from the string.
 
-```python
-s = "   Hello, World!   "
-print(s.strip())   # Output: "Hello, World!"
-print(s.lstrip())  # Output: "Hello, World!   "
-print(s.rstrip())  # Output: "   Hello, World!"
-```
+  ```python
+  s = "   Hello, World!   "
+  print(s.strip())   # Output: "Hello, World!"
+  print(s.lstrip())  # Output: "Hello, World!   "
+  print(s.rstrip())  # Output: "   Hello, World!"
+  ```
 
-### 11. `replace()`
+- `replace()`
 
-Replaces occurrences of a substring with another substring.
+  Replaces occurrences of a substring with another substring.
 
-```python
-s = "Hello, World!"
-print(s.replace("World", "Python"))  # Output: Hello, Python!
-```
+  ```python
+  s = "Hello, World!"
+  print(s.replace("World", "Python"))  # Output: Hello, Python!
+  ```
 
-### 12. `find()`
+- `find()`
 
-Returns the lowest index of the substring if found in the string, otherwise returns -1.
+  Returns the lowest index of the substring if found in the string, otherwise returns -1.
 
-```python
-s = "Hello, World!"
-print(s.find("World"))  # Output: 7
-print(s.find("Python"))  # Output: -1
-```
+  ```python
+  s = "Hello, World!"
+  print(s.find("World"))  # Output: 7
+  print(s.find("Python"))  # Output: -1
+  ```
 
-### 13. `index()`
+- `index()`
 
-Similar to `find()`, but raises a ValueError if the substring is not found.
+  Similar to `find()`, but raises a ValueError if the substring is not found.
 
-```python
-s = "Hello, World!"
-print(s.index("World"))  # Output: 7
-# print(s.index("Python"))  # Raises ValueError
-```
+  ```python
+  s = "Hello, World!"
+  print(s.index("World"))  # Output: 7
+  # print(s.index("Python"))  # Raises ValueError
+  ```
 
 These functions provide powerful tools for manipulating and analyzing strings in Python, enabling you to perform a wide range of tasks efficiently.
