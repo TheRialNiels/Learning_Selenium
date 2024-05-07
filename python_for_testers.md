@@ -23,3 +23,4 @@
 - ## [Modules](docs/modules.md)
 - ## [Exception Handling](docs/exception_handling.md)
 - ## [Files](docs/files.md)
+- ## [Excel Files](docs/excel_files.md)
