@@ -17,3 +17,5 @@
 - ## [Functions](docs/functions.md)
 - ## [Variable Scope](docs/variable_scope.md)
 - ## [Built-in Functions](docs/built_in_functions.md)
+- ## [Datetime Module](docs/datetime_module.md)
+
