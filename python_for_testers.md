@@ -22,3 +22,4 @@
 - ## [Inheritance](docs/inheritance.md)
 - ## [Modules](docs/modules.md)
 - ## [Exception Handling](docs/exception_handling.md)
+- ## [Files](docs/files.md)
