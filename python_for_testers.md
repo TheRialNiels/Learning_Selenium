@@ -21,3 +21,4 @@
 - ## [Classes and Objects](docs/classes_and_objects.md)
 - ## [Inheritance](docs/inheritance.md)
 - ## [Modules](docs/modules.md)
+- ## [Exception Handling](docs/exception_handling.md)
