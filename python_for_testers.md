@@ -18,4 +18,5 @@
 - ## [Variable Scope](docs/variable_scope.md)
 - ## [Built-in Functions](docs/built_in_functions.md)
 - ## [Datetime Module](docs/datetime_module.md)
-
+- ## [Classes and Objects](docs/classes_and_objects.md)
+- ## [Inheritance](docs/inheritance.md)
