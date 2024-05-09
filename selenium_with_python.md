@@ -11,3 +11,4 @@ Selenium is a popular automation testing tool primarily used for web application
 - ## [Taking Screenshots](docs/selenium/taking_screenshots.md)
 - ## [Using JavaScript](docs/selenium/using_javascript.md)
 - ## [Handle Multiple Windows](docs/selenium/handle_multiple_windows.md)
+- ## [Handle Frames](docs/selenium/handle_frames.md)
