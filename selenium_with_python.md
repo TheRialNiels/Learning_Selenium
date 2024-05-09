@@ -8,3 +8,4 @@ Selenium is a popular automation testing tool primarily used for web application
 - ## [Browser Commands](docs/selenium/browser_commands.md)
 - ## [Getting Text and Attributes](docs/selenium/get_text_and_attributes.md)
 - ## [Handling Elements](docs/selenium/handling_elements.md)
+- ## [Taking Screenshots](docs/selenium/taking_screenshots.md)
