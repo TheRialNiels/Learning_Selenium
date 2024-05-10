@@ -17,3 +17,4 @@ Selenium is a popular automation testing tool primarily used for web application
 - ## [Perform Right and Double Click](docs/selenium/perfom_right_and_double_click.md)
 - ## [Handle Sliders](docs/selenium/handle_sliders.md)
 - ## [Handle Drag and Drop](docs/selenium/handle_drag_and_drop.md)
+- ## [Wait Commands](docs/selenium/wait_commands.md)
