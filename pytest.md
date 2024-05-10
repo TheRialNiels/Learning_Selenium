@@ -12,4 +12,5 @@ Pytest is a powerful and popular testing framework for Python. It simplifies the
 
 4. **Plugins**: Pytest offers a rich ecosystem of plugins that extend its functionality, allowing you to integrate with other tools, generate test reports, and more.
 
-- ## [Write First Test](docs/python/write_first_test.md)
+- ## [Write First Test](docs/pytest/write_first_test.md)
+- ## [Grouping Tests](docs/pytest/grouping_tests.md)
