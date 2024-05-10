@@ -15,3 +15,4 @@ Pytest is a powerful and popular testing framework for Python. It simplifies the
 - ## [Write First Test](docs/pytest/write_first_test.md)
 - ## [Grouping Tests](docs/pytest/grouping_tests.md)
 - ## [Fixtures](docs/pytest/fixtures.md)
+- ## [How to Use Conftest](docs/pytest/how_to_use_conftest.md)
